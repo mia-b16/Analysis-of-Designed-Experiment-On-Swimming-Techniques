@@ -1,4 +1,4 @@
-
+#####Analysis of Designed Experiment
 #####LOADING DATA
 # Note : Change the path
 swimming_data <- read.csv("C:/Users/pmutreja/Desktop/swimming.csv", header = T, sep = '\t') 
