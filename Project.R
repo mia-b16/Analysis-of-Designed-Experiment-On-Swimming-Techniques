@@ -1,5 +1,7 @@
 
 #####LOADING DATA
+set.seed(123)  # Ensures reproducibility for any random operations
+
 # Note : Change the path
 swimming_data <- read.csv("C:/Users/pmutreja/Desktop/swimming.csv", header = T, sep = '\t') 
 head(swimming_data)
