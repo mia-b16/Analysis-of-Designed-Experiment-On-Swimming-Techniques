@@ -45,7 +45,6 @@ model.tables(res, type="means", se = TRUE)
 
 ####Tukey's Test
 tuk <- TukeyHSD(res,alpha =0.05,p.adj="none")
-tuk
 ## p val > 0.05 same mean 
 ## All styles have different mean as p-value < 0.05
 ## Food intake methods also have differnt mean (as per Anova also)
